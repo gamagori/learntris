@@ -31,8 +31,9 @@ int main() {
       cout << currentScore << endl;
     else if (input=="?n")
       cout << linesCleared << endl;
-    else if (input=="s")
-      stepBoard(myBoard);
+    else if (input=="s") {
+      linesCleared += stepBoard(myBoard);
+    }
   }
   return 0;
 }

@@ -11,4 +11,4 @@ void printBoard(char**);
 
 void loadBoard(char**);
 
-void stepBoard(char**);
+int stepBoard(char**);
