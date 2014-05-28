@@ -32,7 +32,7 @@ int main() {
     else if (input=="?n")
       cout << linesCleared << endl;
     else if (input=="s") {
-      linesCleared += stepBoard(myBoard);
+      stepBoard(myBoard, linesCleared, currentScore);
     }
   }
   return 0;
