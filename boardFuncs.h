@@ -8,3 +8,7 @@ using namespace std;
 void createBoard(char**);
 
 void printBoard(char**);
+
+void loadBoard(char**);
+
+void stepBoard(char**);

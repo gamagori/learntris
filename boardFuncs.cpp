@@ -20,3 +20,16 @@ void printBoard(char** myBoard) {
     cout << endl;
   }
 }
+
+//loadBoard loads an array from std::cin
+void loadBoard(char** myBoard) {
+  for (int i = 0; i < 22; ++i) {
+    for (int j = 0; j < 10; ++j) {
+      cin >> myBoard[i][j];
+    }
+  }
+}
+
+//stepBoard moves forward one step in the simulation
+//void stepBoard(char** myBoard) {
+  
